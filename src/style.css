@@ -35,10 +35,6 @@
     column-gap: 10px;
 }
 
-.navContainer #globe:hover .navContainer #globe:active{
-    color: indianred;
-}
-
 .navContainer ul li{
     display: inline-block;
     color: white;
@@ -51,7 +47,7 @@
 
 
 .navContainer ul li a:hover, .navContainer ul li a:active{
-    color: indianred;
+    color: #00d5ff;
 }
 
 .full-screen-video-wrap{
@@ -65,6 +61,7 @@
 .full-screen-video-wrap video{
     min-width: 100%;
     max-height: 100%;
+    
 }
 
 .header-overlay{
@@ -81,4 +78,30 @@
     background-color: #000;
 }
 
+.header-content{
+    z-index: 2;
+}
 
+#game-overview{
+    object-fit: cover;
+    overflow: hidden;
+    background-color: #000;
+    margin-right: 400px;
+    width: 100%;
+}
+
+.overview img{
+    display: flex;
+    object-fit: cover;
+    width: 100%;
+    z-index: 1;
+}
+
+.textTwo{
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 2;
+    bottom: 0;
+    position:absolute;
+    color: white;
+}
