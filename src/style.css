@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navContainer{
+    display: flex;
+    background-color: #000;
+    justify-content: flex-end;
+    padding-right: 95px;
+    align-items: center;
+    height: 50px;
+
+}
+
+.seeklogo img{
+    position: flex;
+    height: 50px;
+    padding-right: 230px;
+}
+
+.navContainer ul{
+    display: flex;
+    column-gap: 30px;
+}
+
+.navContainer #globe{
+    display: flex;
+    column-gap: 10px;
+}
+
+.navContainer #globe:hover .navContainer #globe:active{
+    color: indianred;
+}
+
+.navContainer ul li{
+    display: inline-block;
+    color: white;
+}
+
+.navContainer ul li a{
+    color: white;
+    font-size: 24px;
+}
+
+
+.navContainer ul li a:hover, .navContainer ul li a:active{
+    color: indianred;
+}
+
+.full-screen-video-wrap{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.full-screen-video-wrap video{
+    min-width: 100%;
+    max-height: 100%;
+}
+
+.header-overlay{
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
+    opacity: 0.65;
+}
+
+#home{
+    overflow: hidden;
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+}
+
+
